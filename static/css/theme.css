@@ -1,3 +1,11 @@
+.metallic-bronze {
+  background: #B08C56;
+  color: rgba(255, 255, 255, 0.7);
+}
+.metallic-bronze:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
 .dark-liver {
     background: #50514f;
     color: rgba(255, 255, 255, 0.7);
