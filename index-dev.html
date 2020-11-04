@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ecole des Chartes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700,800|Noto+Serif:400,700|Barlow+Semi+Condensed:400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <img src="./assets/logo-ecole-nationale-des-chartes-header.png" alt="École nationale des chartes - PSL" height="30">
+                </a>
+                <div class="navbar-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="navbar-menu">
+                <span class="navbar-item navbar-title">Services &amp; Applications</span>
+            </div>
+            <div class="navbar-end">
+            </div>
+        </nav>
+    </header>
+
+    <div class="columns-header">
+        <h1>Applications en développement</h1>
+        <div class="intro">Bienvenue sur la page d'accueil du serveur de développement de la mission projets numériques de l'École des chartes</div>
+        <nav class="toggle-dev-prod">
+            <a href="https://dh.chartes.psl.eu/">Accès Production</a>
+        </nav>
+    </div>
+    <div class="columns">
+        <div class="filters-column">
+            <div class="filters categories opened">
+                <h3><a href="#">Filtres</a></h3>
+                <ul>
+                    <li class="all-selected"><a class="tout" href="#"></a></li>
+                    <li><a class="edition" href="#"></a></li>
+                    <li><a class="traitement-automatique-langue" href="#"></a></li>
+                    <li><a class="referentiels" href="#"></a></li>
+                    <li><a class="images" href="#"></a></li>
+                </ul>
+            </div>
+            <div class="filters tags">
+                <h3><a href="#">Tags</a></h3>
+                <ul></ul>
+            </div>
+        </div>
+        <div class="apps in-dev">
+            <article class="app" data-category="edition">
+                <section class="app-header">
+                    <h2>Adele</h2>
+                </section>
+                <section class="app-content">
+                    <div class="app-description">
+                        <p>ADELE est un manuel de diplomatique progressivement construit autour du déchiffrement interactif,
+                        de l’annotation, de la traduction et de l’analyse diplomatique d’actes et de documents de gestion.
+                        L’application de saisie collaborative s’appuie sur un workflow conçu pour les usages pédagogiques.</p>
+                        <p>Second paragraphe éventuel</p>
+                    </div>
+                    <div class="app-tags">
+                        <ul>
+                            <li>webapp</li>
+                        </ul>
+                    </div>
+                    <div class="app-links">
+                        <h4>Le site</h4>
+                        <a href="https://dev.chartes.psl.eu/adele/">https://dev.chartes.psl.eu/adele/</a>
+                    </div>
+                    <div class="app-links">
+                        <h4>Sources de l’application web</h4>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/chartes/adele-app">API : https://github.com/chartes/adele-app</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/chartes/adele-vue">Site : https://github.com/chartes/adele-vue</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+            <article class="app" data-category="traitement-automatique-langue">
+                <section class="app-header">
+                    <h2>Deucalion</h2>
+                </section>
+                <section class="app-content">
+                    <div class="app-description">
+                        <p>Service de lemmatisation (latin, ancien français et grec ancien) de l’École des chartes.</p>
+                    </div>
+                    <div class="app-tags">
+                        <ul>
+                            <li>lemmatisation</li>
+                            <li>webapp</li>
+                        </ul>
+                    </div>
+                    <div class="app-links">
+                        <h4>Le site</h4>
+                        <a href="https://dh.chartes.psl.eu/deucalion/">https://dh.chartes.psl.eu/deucalion/</a>
+                    </div>
+                    <div class="app-links">
+                        <h4>Sources de l’application web</h4>
+                        <ul>
+                            <li><a href="https://github.com/chartes/deucalion-chartes">https://github.com/chartes/deucalion-chartes</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+            <article class="app" data-category="edition">
+                <section class="app-header">
+                    <h2>Lettres</h2>
+                </section>
+                <section class="app-content">
+                    <div class="app-description">
+                        <p>Lettres est une application collaborative de description et de transcription de correspondances.
+                        L’interface permet de lister simplement les témoins d’une lettre et d’en identifier les correspondants.
+                        Le worflow permet de construire des grandes collections indépendantes.</p>
+                    </div>
+                    <div class="app-tags">
+                        <ul>
+                            <li>webapp</li>
+                        </ul>
+                    </div>
+                    <div class="app-links">
+                        <h4>Le site</h4>
+                        <a href="https://dev.chartes.psl.eu/lettres/">https://dev.chartes.psl.eu/lettres/</a>
+                    </div>
+                    <div class="app-links">
+                        <h4>Sources de l’application web</h4>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/chartes/adele-app">API : https://github.com/chartes/lettres-app</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/chartes/adele-vue">Site : https://github.com/chartes/lettres-vue</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+            <article class="app" data-category="edition">
+                <section class="app-header">
+                    <h2>Schémas partagés</h2>
+                </section>
+                <section class="app-content">
+                    <div class="app-description">
+                        <p>Depuis plus de 10 ans, l’École des chartes spécifie des schémas XML-TEI pour l’édition critique, notamment :</p>
+                        <ul>
+                            <li><a href="http://developpements.enc.sorbonne.fr/diple/schema/acte">Édition d’actes</a></li>
+                            <li><a href="http://developpements.enc.sorbonne.fr/diple/schema/app/">Apparat critique</a></li>
+                            <li><a href="http://developpements.enc.sorbonne.fr/diple/schema/witness">Témoin manuscrit</a></li>
+                        </ul>
+                    </div>
+                    <div class="app-tags">
+                        <ul>
+                            <li>tei</li>
+                        </ul>
+                    </div>
+                    <div class="app-links">
+                        <h4>Le site</h4>
+                        <a href="http://developpements.enc.sorbonne.fr/diple/schema/">http://developpements.enc.sorbonne.fr/diple/schema/</a>
+                    </div>
+                </section>
+            </article>
+            <article class="app" data-category="edition">
+                <section class="app-header">
+                    <h2>Sources XML-TEI</h2>
+                </section>
+                <section class="app-content">
+                    <div class="app-description">
+                        <p>L’École des chartes donne accès, sous licence libre, à l’intégralité des sources brutes des différents
+                            projets éditoriaux.</p>
+                    </div>
+                    <div class="app-tags">
+                        <ul>
+                            <li>tei</li>
+                        </ul>
+                    </div>
+                    <div class="app-links">
+                        <h4>Sur Github</h4>
+                        <a href="https://github.com/search?q=topic%3Atei+org%3Achartes&type=Repositories">Sources XML-TEI partagées par l’ENC</a>
+                    </div>
+                </section>
+            </article>
+            <article class="app" data-category="edition">
+                <section class="app-header">
+                    <h2>DTS démo</h2>
+                </section>
+                <section class="app-content">
+                    <div class="app-description">
+                        <p>L’École des chartes contribue à l’effort de spécification de
+                            l’<a href=" https://distributed-text-services.github.io/specifications/">API DTS (<i>Distributed Text Services</i>)</a>
+                            pour standardiser l’accès aux textes, améliorer leur citabilité et favoriser leur réutilisation.</p>
+                    </div>
+                    <div class="app-tags">
+                        <ul>
+                            <li>tei</li>
+                            <li>dts</li>
+                            <li>webapp</li>
+                        </ul>
+                    </div>
+                    <div class="app-links">
+                        <h4>Le site</h4>
+                        <a href="https://dev.chartes.psl.eu/dts-demo/">https://dev.chartes.psl.eu/dts-demo/</a>
+                    </div>
+                    <div class="app-links">
+                        <h4>Sources de l’application</h4>
+                        <ul>
+                            <li><a href="https://github.com/chartes/dts-demo">https://github.com/chartes/dts-demo</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+            <article class="app" data-category="referentiels">
+                <section class="app-header">
+                    <h2>DicoTopo</h2>
+                </section>
+                <section class="app-content">
+                    <div class="app-description">
+                        <p>Le Dictionnaire topographique de la France, publié à partir de 1861 par le CTHS, est un instrument de travail
+                        utile à l’identification et l’étude des toponymes anciens. Grâce au liage des entrées et à leur géolocalisation,
+                        l’application de recherche renouvelle en profondeur les données réunies.
+                        L’API ouverte et documentée en favorise les réutilisations.</p>
+                    </div>
+                    <div class="app-tags">
+                        <ul>
+                            <li>gazetteer</li>
+                            <li>webapp</li>
+                        </ul>
+                    </div>
+                    <div class="app-links">
+                        <h4>Le site</h4>
+                        <a href="https://dev.chartes.psl.eu/dicotopo/">https://dev.chartes.psl.eu/dicotopo/</a>
+                        <!-- en PROD: <a href="https://dicotopo.cths.fr/">https://dicotopo.cths.fr/</a> -->
+                    </div>
+                    <div class="app-links">
+                        <h4>Sources de l’application web</h4>
+                        <ul>
+                            <li><a href="https://github.com/chartes/dico-topo">Sources XML : https://github.com/chartes/dico-topo</a></li>
+                            <li><a href="https://github.com/chartes/dico-topo-app">API : https://github.com/chartes/dico-topo-app</a></li>
+                            <li><a href="https://github.com/chartes/dico-topo-vue">Site : https://github.com/chartes/dico-topo-vue</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+            <article class="app" data-category="traitement-automatique-langue">
+                <section class="app-header">
+                    <h2>Des modèles pour la lemmatisation</h2>
+                </section>
+                <section class="app-content">
+                    <div class="app-description">
+                        <p>L’École des chartes produit et partage des modèles Pie pour la lemmatisation de plusieurs langues.</p>
+                    </div>
+                    <div class="app-tags">
+                        <ul>
+                            <li>lemmatisation</li>
+                            <li>machine-learning</li>
+                        </ul>
+                    </div>
+
+                    <!-- DETAILS -->
+                    <a class="app-details-toggle" href="#">Voir les modèles</a>
+                    <div class="app-details" >
+                        <div class="app-details-close"><a href="#"></a></div>
+                        <ul>
+                            <li>
+                                <h3>Ancien français</h3>
+                                <div class="app-links">
+                                    <h4>Dernière archive</h4>
+                                    <a href="https://doi.org/10.5281/zenodo.3237455">https://doi.org/10.5281/zenodo.3237455</a>
+                                </div>
+                                <div class="app-links">
+                                    <h4>Github</h4>
+                                    <ul>
+                                        <li><a href="https://github.com/chartes/deucalion-model-af">https://github.com/chartes/deucalion-model-af</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>Latin</h3>
+                                <div class="app-description">
+                                    <p>Le modèle latin est entraîné sur les données du LASLA.</p>
+                                    <p>L’École des chartes produit et partage des modèles Pie pour la lemmatisation de plusieurs langues.</p>
+                                    <ul>
+                                        <li>item 1</li>
+                                        <li>item 2</li>
+                                        <li><a href="#">item 3 (lien)</a></li>
+                                    </ul>
+                                </div>
+                                <div class="app-links">
+                                    <h4>Github</h4>
+                                    <ul>
+                                        <li><a href="https://github.com/chartes/deucalion-model-lasla">https://github.com/chartes/deucalion-model-lasla</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+            <article class="app" data-category="traitement-automatique-langue">
+                <section class="app-header">
+                    <h2>Pyrrha</h2>
+                </section>
+                <section class="app-content">
+                    <div class="app-description">
+                        <p>Pyrrha est une application de post-correction collaborative de la lemmatisation et de l’étiquetage morpho-syntaxique.</p>
+                    </div>
+                    <div class="app-tags">
+                        <ul>
+                            <li>lemmatisation</li>
+                            <li>webapp</li>
+                        </ul>
+                    </div>
+                    <div class="app-links">
+                        <h4>Le site</h4>
+                        <a href="https://dh.chartes.psl.eu/pyrrha">https://dh.chartes.psl.eu/pyrrha</a>
+                        <!-- en DEV: <a href="https://dev.chartes.psl.eu/pyrrha">https://dev.chartes.psl.eu/pyrrha</a> -->
+                    </div>
+                    <div class="app-links">
+                        <h4>Sources de l’application web</h4>
+                        <ul>
+                            <li><a href="https://github.com/hipster-philology/pyrrha/">https://github.com/hipster-philology/pyrrha/</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+            <article class="app" data-category="edition">
+                <section class="app-header">
+                    <h2>ELEC</h2>
+                </section>
+                <section class="app-content">
+                    <div class="app-description">
+                        <p>Elec (Éditions en ligne de l'École des chartes) est une collection de publications électroniques, de
+                        répertoires et bases de données.</p>
+                    </div>
+                    <div class="app-tags">
+                        <ul>
+                            <li>tei</li>
+                            <li>db-sql</li>
+                        </ul>
+                    </div>
+                    <div class="app-links">
+                        <h4>Le site</h4>
+                        <a href="http://elec.enc.sorbonne.fr/">http://elec.enc.sorbonne.fr/</a>
+                    </div>
+                </section>
+            </article>
+            <article class="app" data-category="images">
+                <section class="app-header">
+                    <h2>Serveur IIIF</h2>
+                </section>
+                <section class="app-content">
+                    <div class="app-description">
+                        <p>L’École des chartes partage ses ressources iconographiques via un service <a href="https://iiif.io/">IIIF</a>.</p>
+                    </div>
+                    <div class="app-tags">
+                        <ul>
+                            <li>iiif</li>
+                        </ul>
+                    </div>
+                    <div class="app-links">
+                        <h4>Accès aux collections</h4>
+                        <a href="https://iiif.chartes.psl.eu/">https://iiif.chartes.psl.eu/</a>
+                    </div>
+                    <div class="app-links">
+                        <h4>Sources de l’application web</h4>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/chartes/adele-app">API : https://github.com/chartes/adele-app</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/chartes/adele-vue">Site : https://github.com/chartes/adele-vue</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </div>
+
+    <script
+            src="http://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+            crossorigin="anonymous">
+    </script>
+    <script src="script.js" type="application/javascript"></script>
+</body>
+</html>
