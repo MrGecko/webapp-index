@@ -561,13 +561,13 @@ nav.toggle-dev-prod a:hover {
     margin-bottom: 10px;
 }
 
-.app-description ul {
+.app-description ul, .app-links ul {
     list-style-position: inside;
     list-style-type: none;
     margin: 4px 0;
 }
 
-.app-description ul > li:before {
+.app-description ul > li:before, .app-links ul > li:before {
     content:'';
     display:inline-block;
     border-radius:50%;
