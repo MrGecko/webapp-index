@@ -555,6 +555,7 @@ nav.toggle-dev-prod a:hover {
     font-size: 21px;
     line-height: 28px;
     color:#4A4A4A;
+    text-align: justify;
 }
 
 .app-description p:not(:last-child) {
@@ -704,7 +705,6 @@ nav.toggle-dev-prod a:hover {
 .app .app-tags ul > li:not(:last-child)::after {
     content: ',';
 }
-
 
 /* -------RESPONSIVE -------- */
 
