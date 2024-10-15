@@ -600,7 +600,7 @@ nav.toggle-dev-prod a:hover {
     background: rgba(223,223,223,0.30);
     border-radius: 12px;
     padding: 40px 35px;
-    width: calc( 100% + 64px );
+    width: 100%;
     position: relative;
     display: none;
 }
@@ -705,6 +705,7 @@ nav.toggle-dev-prod a:hover {
 .app .app-tags ul > li:not(:last-child)::after {
     content: ',';
 }
+
 
 /* -------RESPONSIVE -------- */
 
