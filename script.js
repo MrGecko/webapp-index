@@ -130,6 +130,7 @@ $( document ).ready(function() {
             const linkHref = $(appLinks[0]).attr('href');
 
             var link = $('<a/>');
+            link.attr('target', "_blank")
             link.attr('href', linkHref);
 
             $(this).contents().wrap(link);
